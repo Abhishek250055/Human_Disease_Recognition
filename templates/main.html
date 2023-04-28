@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mediao</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <style>
+      .back-img{
+        background-image: url("https://marlowefireandsecurity.com/wp-content/uploads/2019/08/FaceRecognition.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        wider: 200px;
+        height: 50vh;
+      }
+
+
+      .h_cent {
+        position: absolute;
+        top: 35%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+        font-weight: bold;
+        color: #ffffff; /* dark grey */
+        text-shadow: 1px 1px 1px #fff; /* white shadow for contrast */
+      }
+      hr.gradient {
+        height: 3px;
+        border: none;
+        border-radius: 6px;
+        background: linear-gradient(
+          90deg,
+          rgba(13, 8, 96, 1) 0%,
+          rgba(9, 9, 121, 1) 11%,
+          rgba(6, 84, 170, 1) 31%,
+          rgba(0, 255, 113, 1) 100%
+        );
+  </style>
+
+</head>
+  <body>
+
+    
+    
+    
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">Disease_Recognition</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    
+      <div class="back-img">
+        <h3 class="h_cent">Automatic Recognition of Human Disease using Radiological Data </h3>
+      </div>
+          
+      <hr class="gradient">
+
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/static/tumo.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Brain Tumor Detection </h5>
+              <p class="card-text">Brain tumor detection using radiological data involves using advanced imaging techniques such as MRI and CT scans to create detailed images of the brain and identify any abnormalities or tumors.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/static/lungs.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Covid-19 Detection</h5>
+              <p class="card-text">Covid-19 detection using radiological data involves using imaging techniques such as chest X-rays and CT scans to identify characteristic patterns in the lungs that may indicate a Covid-19 infection.
+
+
+
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/static/kiddo.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kidney Stone Detection</h5>
+              <p class="card-text">Kidney stone detection using radiological data involves using imaging techniques such as X-rays, CT scans, and ultrasounds to visualize the kidneys and identify the presence, size, and location of kidney stones.
+
+
+
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="gradient">
+
+      <br>      
+      
+      <h1 style="text-align:center; font-family:verdana; font-size:200%; "><b> Detect Radiological Data </b></h1>
+      <br>
+
+      <div class="d-grid gap-2 col-6 mx-auto">
+      <button type="button" class="btn btn-outline-success" onclick="location.href='/index1'"><h5>Detect Brain Tumor</h5></button>
+      </div>
+     <br>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-outline-success" onclick="location.href='/index2'"><h5>Detect Covid-19</h5></button>
+        </div>
+        <br>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="button" class="btn btn-outline-success" onclick="location.href='/index3'"><h5>Detect Kidney Stone</h5></button>
+            </div>
+
+
+            <br>
+     
+            <div class="container aos-init aos-animate" data-aos="fade-up">
+                <center><img src="https://t3.ftcdn.net/jpg/05/04/30/04/360_F_504300492_VSrpQNLLpI5qJsslrToNtOeLYWONRP9I.jpg" height="200" width="200"></center>
+                <div class="section-header">
+                  <h2 style="text-align:center;">Team Members</h2>
+                  <br>
+                </div>
+                <marquee behavior="scroll" direction="left">
+                  <img src="/static/ab1.jpeg" height="200" width="200" style="border-radius:50%" title="Abhishek Bisen">
+                  <img src="/static/am.jpg" height="200" width="200" style="border-radius:50%" title="Ankush Mishra">
+                  <img src="/static/aj.jpg" height="200" width="200" style="border-radius:50%" title="Anjali Tiwari">
+                  <img src="/static/gg.jpg" height="200" width="200" style="border-radius:50%" title="Gaurav Gupta">
+                  <img src="/static/hs.jpg" height="200" width="200" style="border-radius:50%" title="Harsh Sahu">
+                  </marquee>
+              </div>
+
+              <br>
+              <h2 style="text-align:center"  font-size: 1.5em;
+              margin-top: 0.83em;
+              margin-bottom: 0.83em;>About The Web</h2>
+              <br>
+              <section class="bg-light">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h2>About The Project</h2>
+                      <p>Automatic disease detection using radiological data involves using artificial intelligence and machine learning algorithms to analyze medical images and identify patterns or abnormalities that may indicate the presence of a particular disease or condition. This approach can aid in the early detection and diagnosis of diseases, potentially improving patient outcomes and reducing healthcare costs.</p>
+                    </div>
+                    <div class="col-md-6">
+                      <img src="/static/abou.gif" class="img-fluid" alt="Responsive image">
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <hr class="gradient">
+              <br>
+              
+
+              <section id="contact">
+                <div class="container">
+                  <h2>Contact Us</h2>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3>Address</h3>
+                      <p>SISTec-R Sikandrabad, Ratibad
+                        <br>Bhopal, Madhya Pradesh<br>India</p>
+                    </div>
+                    <div class="col-md-6">
+                      <h3>Phone Number</h3>
+                      <p>+917566329825</p>
+                      <h3>Email</h3>
+                      <p><a href="bisenabhishek65@gmail.com">bisenabhishek65@gmail.com</a></p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+          
+                  <!-- End Contact Section -->
+          
+            </div></section>
+
+            
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
